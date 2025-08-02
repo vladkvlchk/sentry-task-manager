@@ -10,7 +10,7 @@ interface Task {
   id: number;
   title: string;
   completed: boolean;
-  priority: "low" | "medium" | "high";
+  priority: string;
 }
 
 export function TaskList({ initialTasks }: { initialTasks: Task[] }) {
